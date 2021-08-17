@@ -11217,8 +11217,9 @@ nav .custom-nav-ul li {
   font-size: 3rem;
   text-align: center;
 }
-#contact textarea {
-  resize: none;
+#contact .email-div .email-p {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /* Footer */
