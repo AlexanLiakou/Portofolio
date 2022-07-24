@@ -11211,15 +11211,46 @@ nav .custom-nav-ul li {
   padding: 1rem;
   color: #fff;
 }
+#projects .i-solar-img {
+  height: 276px !important;
+}
+@media only screen and (max-width: 1399px) {
+  #projects .i-solar-img {
+    height: 235px !important;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  #projects .i-solar-img {
+    height: 195px !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #projects .i-solar-img {
+    height: 142px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #projects .i-solar-img {
+    height: auto !important;
+  }
+}
 
 /* Contact section */
 #contact h2, #contact .h2 {
   font-size: 3rem;
   text-align: center;
 }
-#contact .email-div .email-p {
+#contact .email-div .email-p,
+#contact .email-div .cv-link {
   font-size: 2rem;
   font-weight: bold;
+}
+#contact .cv-link {
+  text-decoration: none;
+}
+#contact .cv-link:hover {
+  color: #940F0F;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
 }
 
 /* Footer */
